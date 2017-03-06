@@ -35,7 +35,7 @@ public class HUD {
 		g.setColor(Color.BLACK);
 		g.drawRect(15, 20, maxHealth, 22);
 		g.setColor(Color.green);
-		g.drawString("420", Game.WIDTH / 2, Game.HEIGHT / 2);
+		
 		
 		g.drawString("Level " + level , 15, 65);
 		g.drawString("Score " + score , 75, 65);
